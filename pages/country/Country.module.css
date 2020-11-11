@@ -90,3 +90,17 @@
   color: var(--text-color-secondary);
   margin-bottom: 20px;
 }
+
+@media screen and (min-width: 720px) {
+  .container {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .container_left {
+    grid-column: 1 / span 4;
+  }
+
+  .container_right {
+    grid-column: 5 / span 8;
+  }
+}
