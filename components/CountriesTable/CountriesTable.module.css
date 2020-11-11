@@ -46,6 +46,16 @@
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
 }
 
+.heading_arrow {
+  color: var(--primary-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 2px;
+}
+
 .name {
   flex: 1;
   text-align: left;
